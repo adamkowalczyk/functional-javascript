@@ -11,6 +11,12 @@ function duckCount() {
 }
 
 
+// Official solution:
+
+// converts 'arguments' to a real array, so you can call #filter on it
+// filter leaves only those elems with property quack
+// duckCount returns the LENGTH of that array...
+// no need for a counter!
 
 // function duckCount() {
 // 	return Array.prototype.slice.call(arguments)
